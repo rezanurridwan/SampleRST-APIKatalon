@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_RegressionTest,,,,2023-05-24 09:23:24,2023-05-24 09:23:42,"18,443s",PASSED
+,,,,,,,
+Test Cases/REQRES.IN/TC01_List_Userr,,,,2023-05-24 09:23:24,2023-05-24 09:23:28,"4,182s",PASSED
+"sendRequest(findTestObject(""REQRES.IN/TC01_List_User""))",,,,2023-05-24 09:23:25,2023-05-24 09:23:28,"3,341s",PASSED
+,,,,,,,
+Test Cases/REQRES.IN/TC02_Single_User,,,,2023-05-24 09:23:28,2023-05-24 09:23:29,"0,886s",PASSED
+"sendRequest(findTestObject(""REQRES.IN/TC02_Single_User""))",,,,2023-05-24 09:23:29,2023-05-24 09:23:29,"0,408s",PASSED
+,,,,,,,
+Test Cases/REQRES.IN/TC03_Create,,,,2023-05-24 09:23:29,2023-05-24 09:23:31,"2,343s",PASSED
+"sendRequest(findTestObject(""REQRES.IN/TC03_Create""))",,,,2023-05-24 09:23:30,2023-05-24 09:23:30,"0,843s",PASSED
+"request = findTestObject(""REQRES.IN/TC03_Create"")",,,,2023-05-24 09:23:30,2023-05-24 09:23:31,"0,077s",PASSED
+response = sendRequest(request),,,,2023-05-24 09:23:31,2023-05-24 09:23:31,"0,762s",PASSED
+statusCode = response.getStatusCode(),,,,2023-05-24 09:23:31,2023-05-24 09:23:31,"0,032s",PASSED
+if (statusCode == 200),,,,2023-05-24 09:23:31,2023-05-24 09:23:31,"0,003s",PASSED
+else,,,,2023-05-24 09:23:31,2023-05-24 09:23:31,"0,018s",PASSED
+,,,,,,,
+Test Cases/REQRES.IN/TC04_Update,,,,2023-05-24 09:23:31,2023-05-24 09:23:34,"2,191s",PASSED
+"request = findTestObject(""REQRES.IN/TC04_Update"")",,,,2023-05-24 09:23:32,2023-05-24 09:23:32,"0,061s",PASSED
+response = sendRequest(request),,,,2023-05-24 09:23:32,2023-05-24 09:23:34,"1,649s",PASSED
+statusCode = response.getStatusCode(),,,,2023-05-24 09:23:34,2023-05-24 09:23:34,"0,001s",PASSED
+if (statusCode == 200),,,,2023-05-24 09:23:34,2023-05-24 09:23:34,"0,008s",PASSED
+,,,,,,,
+Test Cases/REQRES.IN/TC05_Delete,,,,2023-05-24 09:23:34,2023-05-24 09:23:35,"1,138s",PASSED
+"request = findTestObject(""REQRES.IN/TC05_Delete"")",,,,2023-05-24 09:23:34,2023-05-24 09:23:34,"0,053s",PASSED
+response = sendRequest(request),,,,2023-05-24 09:23:34,2023-05-24 09:23:35,"0,656s",PASSED
+statusCode = response.getStatusCode(),,,,2023-05-24 09:23:35,2023-05-24 09:23:35,"0,000s",PASSED
+if (statusCode == 204),,,,2023-05-24 09:23:35,2023-05-24 09:23:35,"0,000s",PASSED
+,,,,,,,
+Test Cases/REQRES.IN/TC06_Register Successfull,,,,2023-05-24 09:23:35,2023-05-24 09:23:36,"1,463s",PASSED
+"request = findTestObject(""REQRES.IN/TC06_Register Successfull"")",,,,2023-05-24 09:23:35,2023-05-24 09:23:35,"0,068s",PASSED
+response = sendRequest(request),,,,2023-05-24 09:23:35,2023-05-24 09:23:36,"0,731s",PASSED
+statusCode = response.getStatusCode(),,,,2023-05-24 09:23:36,2023-05-24 09:23:36,"0,002s",PASSED
+if (statusCode == 200),,,,2023-05-24 09:23:36,2023-05-24 09:23:36,"0,007s",PASSED
+,,,,,,,
+Test Cases/REQRES.IN/TC07_Register Unsuccessfull,,,,2023-05-24 09:23:36,2023-05-24 09:23:38,"2,232s",PASSED
+"request = findTestObject(""REQRES.IN/TC07_Register Unsuccessfull"")",,,,2023-05-24 09:23:37,2023-05-24 09:23:37,"0,084s",PASSED
+response = sendRequest(request),,,,2023-05-24 09:23:37,2023-05-24 09:23:38,"1,697s",PASSED
+statusCode = response.getStatusCode(),,,,2023-05-24 09:23:38,2023-05-24 09:23:38,"0,000s",PASSED
+if (statusCode == 400),,,,2023-05-24 09:23:38,2023-05-24 09:23:38,"0,000s",PASSED
+,,,,,,,
+Test Cases/REQRES.IN/TC08_Login,,,,2023-05-24 09:23:39,2023-05-24 09:23:40,"1,184s",PASSED
+"request = findTestObject(""REQRES.IN/TC08_Login"")",,,,2023-05-24 09:23:39,2023-05-24 09:23:39,"0,092s",PASSED
+response = sendRequest(request),,,,2023-05-24 09:23:39,2023-05-24 09:23:40,"0,638s",PASSED
+statusCode = response.getStatusCode(),,,,2023-05-24 09:23:40,2023-05-24 09:23:40,"0,000s",PASSED
+if (statusCode == 200),,,,2023-05-24 09:23:40,2023-05-24 09:23:40,"0,006s",PASSED
+,,,,,,,
+Test Cases/REQRES.IN/TC09_Login Unsuccessfull,,,,2023-05-24 09:23:40,2023-05-24 09:23:42,"2,260s",PASSED
+"request = findTestObject(""REQRES.IN/TC09_Login Unsuccessfull"")",,,,2023-05-24 09:23:40,2023-05-24 09:23:40,"0,056s",PASSED
+response = sendRequest(request),,,,2023-05-24 09:23:40,2023-05-24 09:23:42,"1,777s",PASSED
+statusCode = response.getStatusCode(),,,,2023-05-24 09:23:42,2023-05-24 09:23:42,"0,001s",PASSED
+if (statusCode == 400),,,,2023-05-24 09:23:42,2023-05-24 09:23:42,"0,004s",PASSED

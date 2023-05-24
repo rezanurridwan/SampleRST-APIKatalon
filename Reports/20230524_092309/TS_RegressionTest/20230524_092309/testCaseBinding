@@ -1,0 +1,9 @@
+{"testCaseName":"Test Cases/REQRES.IN/TC01_List_Userr","testCaseId":"Test Cases/REQRES.IN/TC01_List_Userr","iterationVariableName":""}
+{"testCaseName":"Test Cases/REQRES.IN/TC02_Single_User","testCaseId":"Test Cases/REQRES.IN/TC02_Single_User","iterationVariableName":""}
+{"testCaseName":"Test Cases/REQRES.IN/TC03_Create","testCaseId":"Test Cases/REQRES.IN/TC03_Create","iterationVariableName":""}
+{"testCaseName":"Test Cases/REQRES.IN/TC04_Update","testCaseId":"Test Cases/REQRES.IN/TC04_Update","iterationVariableName":""}
+{"testCaseName":"Test Cases/REQRES.IN/TC05_Delete","testCaseId":"Test Cases/REQRES.IN/TC05_Delete","iterationVariableName":""}
+{"testCaseName":"Test Cases/REQRES.IN/TC06_Register Successfull","testCaseId":"Test Cases/REQRES.IN/TC06_Register Successfull","iterationVariableName":""}
+{"testCaseName":"Test Cases/REQRES.IN/TC07_Register Unsuccessfull","testCaseId":"Test Cases/REQRES.IN/TC07_Register Unsuccessfull","iterationVariableName":""}
+{"testCaseName":"Test Cases/REQRES.IN/TC08_Login","testCaseId":"Test Cases/REQRES.IN/TC08_Login","iterationVariableName":""}
+{"testCaseName":"Test Cases/REQRES.IN/TC09_Login Unsuccessfull","testCaseId":"Test Cases/REQRES.IN/TC09_Login Unsuccessfull","iterationVariableName":""}

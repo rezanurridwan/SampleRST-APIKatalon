@@ -14,13 +14,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import org.openqa.selenium.Keys as Keys
-import static org.assertj.core.api.Assertions.*
-import com.kms.katalon.core.testobject.RequestObject as RequestObject
-import com.kms.katalon.core.testobject.ResponseObject as ResponseObject
-import com.kms.katalon.core.webservice.verification.WSResponseManager as WSResponseManager
-import groovy.json.JsonSlurper as JsonSlurper
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WS.sendRequest(findTestObject('REQRES.IN/TC01_List_User'))
+WS.sendRequest(findTestObject('REQRES.IN/TC02_Single_User'))
 

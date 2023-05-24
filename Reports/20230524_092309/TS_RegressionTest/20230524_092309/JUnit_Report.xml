@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="18.443" tests="9" failures="0" errors="0">
+   <testsuite name="TS_RegressionTest" tests="9" failures="0" errors="0" time="18.443" skipped="0" timestamp="2023-05-24 09:23:24" hostname="LENOVO - DESKTOP-0EH6HA0" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Katalon Studio\\SampleAPIKatalon\\Reports\\20230524_092309\\TS_RegressionTest\\20230524_092309"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Katalon Studio\\SampleAPIKatalon\\Reports\\20230524_092309\\TS_RegressionTest\\20230524_092309\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-0EH6HA0"/>
+         <property name="hostAddress" value="192.168.202.19"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+      </properties>
+      <testcase name="Test Cases/REQRES.IN/TC01_List_Userr" time="4.182" classname="Test Cases/REQRES.IN/TC01_List_Userr" status="PASSED">
+         <system-out><![CDATA[2023-05-24 09:23:24 - [TEST_CASE][PASSED] - Test Cases/REQRES.IN/TC01_List_Userr: Test Cases/REQRES.IN/TC01_List_Userr
+
+2023-05-24 09:23:25 - [TEST_STEP][PASSED] - sendRequest(findTestObject("REQRES.IN/TC01_List_User")): Send request successfully
+
+2023-05-24 09:23:28 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\Katalon Studio\SampleAPIKatalon\Reports\20230524_092309\TS_RegressionTest\20230524_092309\requests\main\0.har
+
+2023-05-24 09:23:28 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REQRES.IN/TC02_Single_User" time="0.886" classname="Test Cases/REQRES.IN/TC02_Single_User" status="PASSED">
+         <system-out><![CDATA[2023-05-24 09:23:28 - [TEST_CASE][PASSED] - Test Cases/REQRES.IN/TC02_Single_User: Test Cases/REQRES.IN/TC02_Single_User
+
+2023-05-24 09:23:29 - [TEST_STEP][PASSED] - sendRequest(findTestObject("REQRES.IN/TC02_Single_User")): Send request successfully
+
+2023-05-24 09:23:29 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\Katalon Studio\SampleAPIKatalon\Reports\20230524_092309\TS_RegressionTest\20230524_092309\requests\main\1.har
+
+2023-05-24 09:23:29 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REQRES.IN/TC03_Create" time="2.343" classname="Test Cases/REQRES.IN/TC03_Create" status="PASSED">
+         <system-out><![CDATA[2023-05-24 09:23:29 - [TEST_CASE][PASSED] - Test Cases/REQRES.IN/TC03_Create: Test Cases/REQRES.IN/TC03_Create
+
+2023-05-24 09:23:30 - [TEST_STEP][PASSED] - sendRequest(findTestObject("REQRES.IN/TC03_Create")): Send request successfully
+
+2023-05-24 09:23:30 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\Katalon Studio\SampleAPIKatalon\Reports\20230524_092309\TS_RegressionTest\20230524_092309\requests\main\2.har
+
+2023-05-24 09:23:30 - [MESSAGE][PASSED] - Send request successfully
+
+2023-05-24 09:23:30 - [TEST_STEP][PASSED] - request = findTestObject("REQRES.IN/TC03_Create"): null
+
+2023-05-24 09:23:31 - [TEST_STEP][PASSED] - response = sendRequest(request): Send request successfully
+
+2023-05-24 09:23:31 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\Katalon Studio\SampleAPIKatalon\Reports\20230524_092309\TS_RegressionTest\20230524_092309\requests\main\3.har
+
+2023-05-24 09:23:31 - [MESSAGE][PASSED] - Send request successfully
+
+2023-05-24 09:23:31 - [TEST_STEP][PASSED] - statusCode = response.getStatusCode(): null
+
+2023-05-24 09:23:31 - [TEST_STEP][PASSED] - if (statusCode == 200): null
+
+2023-05-24 09:23:31 - [TEST_STEP][PASSED] - else: null
+
+2023-05-24 09:23:31 - [TEST_STEP][PASSED] - println("Status code is not 200. Verification failed!"): null
+
+2023-05-24 09:23:31 - [TEST_STEP][PASSED] - println("Actual status code: " + statusCode): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REQRES.IN/TC04_Update" time="2.191" classname="Test Cases/REQRES.IN/TC04_Update" status="PASSED">
+         <system-out><![CDATA[2023-05-24 09:23:31 - [TEST_CASE][PASSED] - Test Cases/REQRES.IN/TC04_Update: Test Cases/REQRES.IN/TC04_Update
+
+2023-05-24 09:23:32 - [TEST_STEP][PASSED] - request = findTestObject("REQRES.IN/TC04_Update"): null
+
+2023-05-24 09:23:32 - [TEST_STEP][PASSED] - response = sendRequest(request): Send request successfully
+
+2023-05-24 09:23:34 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\Katalon Studio\SampleAPIKatalon\Reports\20230524_092309\TS_RegressionTest\20230524_092309\requests\main\4.har
+
+2023-05-24 09:23:34 - [MESSAGE][PASSED] - Send request successfully
+
+2023-05-24 09:23:34 - [TEST_STEP][PASSED] - statusCode = response.getStatusCode(): null
+
+2023-05-24 09:23:34 - [TEST_STEP][PASSED] - if (statusCode == 200): null
+
+2023-05-24 09:23:34 - [TEST_STEP][PASSED] - println("Status code is 200. Verification passed!"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REQRES.IN/TC05_Delete" time="1.138" classname="Test Cases/REQRES.IN/TC05_Delete" status="PASSED">
+         <system-out><![CDATA[2023-05-24 09:23:34 - [TEST_CASE][PASSED] - Test Cases/REQRES.IN/TC05_Delete: Test Cases/REQRES.IN/TC05_Delete
+
+2023-05-24 09:23:34 - [TEST_STEP][PASSED] - request = findTestObject("REQRES.IN/TC05_Delete"): null
+
+2023-05-24 09:23:34 - [TEST_STEP][PASSED] - response = sendRequest(request): Send request successfully
+
+2023-05-24 09:23:35 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\Katalon Studio\SampleAPIKatalon\Reports\20230524_092309\TS_RegressionTest\20230524_092309\requests\main\5.har
+
+2023-05-24 09:23:35 - [MESSAGE][PASSED] - Send request successfully
+
+2023-05-24 09:23:35 - [TEST_STEP][PASSED] - statusCode = response.getStatusCode(): null
+
+2023-05-24 09:23:35 - [TEST_STEP][PASSED] - if (statusCode == 204): null
+
+2023-05-24 09:23:35 - [TEST_STEP][PASSED] - println("Status code is 204. Verification passed!"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REQRES.IN/TC06_Register Successfull" time="1.463" classname="Test Cases/REQRES.IN/TC06_Register Successfull" status="PASSED">
+         <system-out><![CDATA[2023-05-24 09:23:35 - [TEST_CASE][PASSED] - Test Cases/REQRES.IN/TC06_Register Successfull: Test Cases/REQRES.IN/TC06_Register Successfull
+
+2023-05-24 09:23:35 - [TEST_STEP][PASSED] - request = findTestObject("REQRES.IN/TC06_Register Successfull"): null
+
+2023-05-24 09:23:35 - [TEST_STEP][PASSED] - response = sendRequest(request): Send request successfully
+
+2023-05-24 09:23:36 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\Katalon Studio\SampleAPIKatalon\Reports\20230524_092309\TS_RegressionTest\20230524_092309\requests\main\6.har
+
+2023-05-24 09:23:36 - [MESSAGE][PASSED] - Send request successfully
+
+2023-05-24 09:23:36 - [TEST_STEP][PASSED] - statusCode = response.getStatusCode(): null
+
+2023-05-24 09:23:36 - [TEST_STEP][PASSED] - if (statusCode == 200): null
+
+2023-05-24 09:23:36 - [TEST_STEP][PASSED] - println("Status code is 200. Verification passed!"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REQRES.IN/TC07_Register Unsuccessfull" time="2.232" classname="Test Cases/REQRES.IN/TC07_Register Unsuccessfull" status="PASSED">
+         <system-out><![CDATA[2023-05-24 09:23:36 - [TEST_CASE][PASSED] - Test Cases/REQRES.IN/TC07_Register Unsuccessfull: Test Cases/REQRES.IN/TC07_Register Unsuccessfull
+
+2023-05-24 09:23:37 - [TEST_STEP][PASSED] - request = findTestObject("REQRES.IN/TC07_Register Unsuccessfull"): null
+
+2023-05-24 09:23:37 - [TEST_STEP][PASSED] - response = sendRequest(request): Send request successfully
+
+2023-05-24 09:23:38 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\Katalon Studio\SampleAPIKatalon\Reports\20230524_092309\TS_RegressionTest\20230524_092309\requests\main\7.har
+
+2023-05-24 09:23:38 - [MESSAGE][PASSED] - Send request successfully
+
+2023-05-24 09:23:38 - [TEST_STEP][PASSED] - statusCode = response.getStatusCode(): null
+
+2023-05-24 09:23:38 - [TEST_STEP][PASSED] - if (statusCode == 400): null
+
+2023-05-24 09:23:38 - [TEST_STEP][PASSED] - println("Status code is 400. Verification passed!"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REQRES.IN/TC08_Login" time="1.184" classname="Test Cases/REQRES.IN/TC08_Login" status="PASSED">
+         <system-out><![CDATA[2023-05-24 09:23:39 - [TEST_CASE][PASSED] - Test Cases/REQRES.IN/TC08_Login: Test Cases/REQRES.IN/TC08_Login
+
+2023-05-24 09:23:39 - [TEST_STEP][PASSED] - request = findTestObject("REQRES.IN/TC08_Login"): null
+
+2023-05-24 09:23:39 - [TEST_STEP][PASSED] - response = sendRequest(request): Send request successfully
+
+2023-05-24 09:23:40 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\Katalon Studio\SampleAPIKatalon\Reports\20230524_092309\TS_RegressionTest\20230524_092309\requests\main\8.har
+
+2023-05-24 09:23:40 - [MESSAGE][PASSED] - Send request successfully
+
+2023-05-24 09:23:40 - [TEST_STEP][PASSED] - statusCode = response.getStatusCode(): null
+
+2023-05-24 09:23:40 - [TEST_STEP][PASSED] - if (statusCode == 200): null
+
+2023-05-24 09:23:40 - [TEST_STEP][PASSED] - println("Status code is 200. Verification passed!"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REQRES.IN/TC09_Login Unsuccessfull" time="2.26" classname="Test Cases/REQRES.IN/TC09_Login Unsuccessfull" status="PASSED">
+         <system-out><![CDATA[2023-05-24 09:23:40 - [TEST_CASE][PASSED] - Test Cases/REQRES.IN/TC09_Login Unsuccessfull: Test Cases/REQRES.IN/TC09_Login Unsuccessfull
+
+2023-05-24 09:23:40 - [TEST_STEP][PASSED] - request = findTestObject("REQRES.IN/TC09_Login Unsuccessfull"): null
+
+2023-05-24 09:23:40 - [TEST_STEP][PASSED] - response = sendRequest(request): Send request successfully
+
+2023-05-24 09:23:42 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO\Katalon Studio\SampleAPIKatalon\Reports\20230524_092309\TS_RegressionTest\20230524_092309\requests\main\9.har
+
+2023-05-24 09:23:42 - [MESSAGE][PASSED] - Send request successfully
+
+2023-05-24 09:23:42 - [TEST_STEP][PASSED] - statusCode = response.getStatusCode(): null
+
+2023-05-24 09:23:42 - [TEST_STEP][PASSED] - if (statusCode == 400): null
+
+2023-05-24 09:23:42 - [TEST_STEP][PASSED] - println("Status code is 400. Verification passed!"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-24 09:23:24 - [TEST_SUITE][PASSED] - TS_RegressionTest: Test Cases/REQRES.IN/TC09_Login Unsuccessfull]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
